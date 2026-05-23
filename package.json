@@ -1,0 +1,30 @@
+{
+  "name": "kalid-ai-app",
+  "version": "1.0.0",
+  "description": "Kalid AI Pro - Oromo Language Chatbot powered by OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "oromo",
+    "openai",
+    "gpt-4o-mini"
+  ],
+  "author": "Kalid",
+  "license": "MIT"
+}
